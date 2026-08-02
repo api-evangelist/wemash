@@ -1,7 +1,24 @@
 aid: wemash
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wemash.png
 name: WeMash
-description: WeMash is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: WeMash was a Los Angeles-based, cloud-based video mashup platform founded
+  in 2014 that partnered with movie studios, news organizations, sports entities,
+  and music labels to give creators legal access to premium content for derivative
+  works, with monetization shared across rights holders. Backed by a roughly $420K
+  seed round whose sole institutional investor was Andreessen Horowitz, the company
+  is now defunct - wemash.com no longer resolves and no developer, documentation,
+  or API surface remains to be catalogued.
 url: https://raw.githubusercontent.com/api-evangelist/wemash/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,33 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-evidence:
+- wemash.com has no DNS A record and does not resolve (probed 2026-07-21)
+- Crunchbase and Tracxn profiles list the company as inactive/deadpooled
+- wemash.io is an unrelated GoDaddy placeholder site; wemash.github.io redirects
+  to an unrelated firm (mash.is)
+- no first-party packages found on npm or PyPI; no public API artifacts found
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Video
+- Entertainment
+- Media
+- Mashups
+- Content Licensing
+- User-Generated Content
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
