@@ -33,7 +33,7 @@ x-status-evidence:
 - wemash.io is an unrelated GoDaddy placeholder site; wemash.github.io redirects
   to an unrelated firm (mash.is)
 - no first-party packages found on npm or PyPI; no public API artifacts found
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
