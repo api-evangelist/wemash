@@ -31,6 +31,8 @@ description: WeMash was a Los Angeles-based, cloud-based video mashup platform f
   is now defunct - wemash.com no longer resolves and no developer, documentation,
   or API surface remains to be catalogued.
 url: https://raw.githubusercontent.com/api-evangelist/wemash/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
